@@ -4,4 +4,7 @@ npx create-react-app react-library --template typescript
 - Run src:
 npm start
 
-
+- Install react router version 5:
+npm install react-router-dom@5
+update index.tsx <BrowserRouter><App/></BrowserRouter>
+update App.tsx <Switch><Router path='/'><></Router></Switch>
